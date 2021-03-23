@@ -1,5 +1,5 @@
 {
-  "name": "with-styled-components",
+  "name": "ignews",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
@@ -8,13 +8,20 @@
   },
   "dependencies": {
     "next": "latest",
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0",
-    "react-is": "^16.8.0",
-    "styled-components": "^5.0.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-is": "^17.0.2",
+    "sass": "^1.32.8",
+    "styled-components": "^5.2.1",
+    "styled-normalize": "^8.0.7"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^1.8.0"
+    "@types/node": "^14.14.35",
+    "@types/react-dom": "^17.0.3",
+    "@types/react-is": "^17.0.0",
+    "@types/styled-components": "^5.1.9",
+    "babel-plugin-styled-components": "^1.12.0",
+    "typescript": "^4.2.3"
   },
   "license": "MIT"
 }
