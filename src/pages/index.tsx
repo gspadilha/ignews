@@ -1,5 +1,5 @@
-import { Header } from "../components/Header";
+import { Home } from "./default/Home";
 
-export default function Home() {
-  return <h1>teste</h1>;
+export default function Index() {
+  return <Home />;
 }
